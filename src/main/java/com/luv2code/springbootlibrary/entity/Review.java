@@ -19,8 +19,7 @@ public class Review {
     private String userEmail;
 
     @Column(name = "date")
-    @CreationTimestamp
-    private Data date;
+    private String date;
 
     @Column(name = "rating")
     private double rating;
@@ -31,5 +30,6 @@ public class Review {
     @Column(name = "review_description")
     private String reviewDescription;
 
-
 }
+
+
